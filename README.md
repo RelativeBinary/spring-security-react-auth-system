@@ -16,6 +16,8 @@ So far I've only got the server side working so that:
 - Open the server folder into IntelliJ IDEA
 - Right-click on the pom.xml in /src folder and reload the maven dependencies
 - Make sure you are running java 11
+- In application.properties make sure to change the user and user password to what ever user you have setup in mySQL
+- Also create a schema called userdb
 - Running the server should work.
 - going to localhost:8080 should redirect you to the login page
 - you can use:
